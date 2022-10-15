@@ -242,6 +242,9 @@ body {
   align-items: none;
   flex-wrap: wrap;
 }
+.tablas-flex h2 {
+  margin-top: 2rem;
+}
 
 .degrade-sec {
   background: linear-gradient(90deg, rgba(172, 172, 172, 0) 0%, rgba(199, 199, 181, 0.2469362745) 57%);

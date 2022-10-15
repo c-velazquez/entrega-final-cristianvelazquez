@@ -28,8 +28,7 @@ nuestro "local" asi como también una parte "aside" de ofertas. (todo fue animad
 PRODUCTOS
 
 En esta página encontraras la distinta variedad de productos que poseemos, se cuenta con 2 filtros, uno por talle y otro por color, asi como tambien se podra navegar clickeando
-sobre el estilo de calzado que se busca, cuenta con un carrusel de fotos para la mayoria de los productos (utilizando bootstrap), una descripción para cada uno de ellos y támbien con un boton 
-de agregar al carrito. Todas las imagenes fueron pasadas a formato WEBP para disminuir su peso y modificadas utilizando la página Photopea para retocar las dimensiones de las fotos.
+sobre el estilo de calzado que se busca, una descripción para cada uno de ellos y támbien con un boton de agregar al carrito. Todas las imagenes fueron pasadas a formato WEBP para disminuir su peso y modificadas utilizando la página Photopea para retocar las dimensiones de las fotos.
 
 CUAL ES MI TALLE
 

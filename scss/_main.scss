@@ -130,4 +130,8 @@ body{
 .tablas-flex{
     @include flex(row, space-around, none);
     flex-wrap: wrap;
+
+    h2{
+        margin-top: 2rem;
+    }
 }
