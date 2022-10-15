@@ -1,0 +1,72 @@
+
+#botonera1{
+    grid-area: nav1;
+    
+    h5{
+        font-size: $fontMd;
+        font-weight: $bold;
+    }
+
+    ul{
+
+        li{
+            list-style: none;
+            
+            a{
+                font-size: $fontS;
+                text-decoration: none;
+                color: black;
+                
+                :hover{
+                    font-size: $fontS;
+                    color: blue;
+                    text-decoration: double;
+                    font-weight: $bold;
+                }
+            }
+
+        }
+    }
+}
+
+#botonera2{
+    @include flex(row, space-between, none);
+    grid-area: nav2;
+    
+    button{
+        border: solid 0.1rem white;
+        margin: 0.2rem;
+    }
+
+    div{
+
+        ul{
+
+            li{
+                margin: 0.7rem 0rem;
+                list-style: none;
+
+                a{
+                    color: white;
+                    font-size: $fontMd;
+                    margin: 1rem;
+                    text-decoration: none;
+
+                    :hover{
+                        color: white;
+                        font-size: $fontMd;
+                        margin: 1rem;
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-imagen{
+    background-image: url(../logo/fondo2.webp);
+    width: 100%;
+    border-radius: 0.5rem;
+}
+

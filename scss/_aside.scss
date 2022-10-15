@@ -1,0 +1,11 @@
+#ofertas{
+    grid-area: ofertas;
+
+    p + a{
+        font-size: $fontS;
+    }
+
+    .aumento p{
+        margin-bottom: 0rem;
+    }
+}

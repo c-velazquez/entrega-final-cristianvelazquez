@@ -1,0 +1,83 @@
+.cuerpo-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: 
+    "nav1"
+    "header"
+    "nav2"
+    "princ"
+    "ofertas"
+    "redes"    
+    "pie";
+}
+
+.cuerpo-producto-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: 
+    "nav1"
+    "header"
+    "nav2"
+    "princ"
+    "ofertas"
+    "redes"    
+    "pie";
+}
+
+.cuerpo-politica{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: 
+    "nav1"
+    "header"
+    "nav2"
+    "princ"
+    "redes"    
+    "pie";
+}
+
+
+.contacto-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: 
+    "nav1"
+    "header"
+    "nav2"
+    "princ"
+    "redes"    
+    "pie";
+}
+
+.secundario{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "st sp";
+}
+
+.productos-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "filtro"
+    "modelo" ;
+}
+
+.modelo{
+    grid-area: modelo;
+    
+    p + a{
+        font-size: $fontS;
+    }
+}
+
+.filtro{
+    grid-area: filtro;
+}

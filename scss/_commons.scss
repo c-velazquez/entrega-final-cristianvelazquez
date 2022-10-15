@@ -1,0 +1,81 @@
+$fontXL: 2.2rem;
+$fontLg: 1.7rem;
+$fontMd: 1.5rem;
+$fontS: 1.3rem;
+$fontXS: 1rem;
+
+$bold:700;
+$normal:400;
+$thin:200; 
+
+$colores:(
+    'borde':rgb(1, 1, 56),
+    'fondopage': rgb(255, 255, 125),
+    'fondopie': rgb(219, 219, 219),
+);
+
+@mixin flex ($dire, $justify, $align){
+    display:flex;
+    flex-direction: $dire;
+    justify-content: $justify;
+    align-items: $align;    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.bg-page{
+    background-color: map-get($map: $colores, $key:'fondopage');
+    width: 100%;
+    overflow-x: hidden;
+} ;
+
+h1, h2, h3, h4, article, p{
+    font-family: 'Noto Sans', sans-serif;
+};
+
+a{
+    font-family:'Roboto', sans-serif;
+}
+
+b{
+    font-size: $fontMd;
+}
+
+h5{
+    font-size: $fontMd;
+}
+
+
+.titulo{
+    font-size: $fontXL;
+    font-weight: $bold;
+}
+
+.producto-flex{
+    @include flex(row, space-around , none);
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+}
+
+#header{
+    grid-area: header;
+}
+
+#redes {
+    @include flex(column,center , none);   
+    grid-area:redes;
+    h2{
+        font-size: $fontS;
+        font-weight: $bold;
+
+        div{
+
+            a{
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
