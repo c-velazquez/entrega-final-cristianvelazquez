@@ -55,3 +55,16 @@ Utilizamos SASS para dar orden y facilitando las modificaciones mediante el uso 
 el mismo o muy similar.
 
 Por último lo hicimos responsive a partir de 768px con @media
+
+GIT - GITHUB - SERVER
+
+Utilizamos git para ir llevando adelante cambios y luego pasarlos a github a fin que esten disponibles para la visualización de todo interesado. Finalmente lo subimos al server de 000webhost.
+
+LINKS REPO
+https://github.com/c-velazquez/entrega-final-cristianvelazquez.git
+
+LINK PUBLICO
+https://c-velazquez.github.io/entrega-final-cristianvelazquez/
+
+SUBIDA AL SERVIDOR
+https://zakira-shoes.000webhostapp.com/
