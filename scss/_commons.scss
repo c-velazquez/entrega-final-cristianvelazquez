@@ -25,10 +25,13 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 .bg-page{
     background-color: map-get($map: $colores, $key:'fondopage');
-    width: 100%;
-    overflow-x: hidden;
 } ;
 
 h1, h2, h3, h4, article, p{
