@@ -61,6 +61,15 @@ h5 {
   margin-right: 1rem;
 }
 
+.degrade-sec {
+  background: linear-gradient(90deg, rgba(172, 172, 172, 0) 0%, rgba(199, 199, 181, 0.2469362745) 57%);
+}
+
+.aumento:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 #botonera1 {
   grid-area: nav1;
 }
@@ -243,15 +252,6 @@ h5 {
 }
 .tablas-flex h2 {
   margin-top: 2rem;
-}
-
-.degrade-sec {
-  background: linear-gradient(90deg, rgba(172, 172, 172, 0) 0%, rgba(199, 199, 181, 0.2469362745) 57%);
-}
-
-.aumento:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
 }
 
 .cuerpo-grid {
