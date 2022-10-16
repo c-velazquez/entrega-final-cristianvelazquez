@@ -1,10 +1,10 @@
 vínculo repositorio
 
-https://github.com/c-velazquez/tercer_entrega_cristianvelazquez.git
+https://github.com/c-velazquez/entrega-final-cristianvelazquez.git
 
 link público
 
-https://c-velazquez.github.io/tercer_entrega_cristianvelazquez/
+https://c-velazquez.github.io/entrega-final-cristianvelazquez/
 
 subida al servidor
 
