@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;700&family=Roboto:wght@300;400;700&display=swap");
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
 }
 
-.contenedor {
-  width: 100vw;
+body {
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -255,40 +254,6 @@ h5 {
   transition: 0.5s;
 }
 
-@-webkit-keyframes headerAnimation {
-  0% {
-    background-image: url(../logo/zakira-shoes-Logo-2.svg);
-  }
-  50% {
-    background-image: url(../logo/zakira-shoes-Logo-2.webp);
-  }
-  100% {
-    background-image: url(../logo/zakira-shoes-Logo-2.svg);
-  }
-}
-
-@keyframes headerAnimation {
-  0% {
-    background-image: url(../logo/zakira-shoes-Logo-2.svg);
-  }
-  50% {
-    background-image: url(../logo/zakira-shoes-Logo-2.webp);
-  }
-  100% {
-    background-image: url(../logo/zakira-shoes-Logo-2.svg);
-  }
-}
-header {
-  height: auto;
-  background-size: cover;
-  -webkit-animation-name: headerAnimation;
-          animation-name: headerAnimation;
-  -webkit-animation-duration: 5.5s;
-          animation-duration: 5.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
 .cuerpo-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -450,5 +415,37 @@ header {
   .filtro, b {
     text-align: left;
     margin: 1rem;
+  }
+  @-webkit-keyframes headerAnimation {
+    0% {
+      background-image: url(../logo/zakira-shoes-Logo-2.svg);
+    }
+    50% {
+      background-image: url(../logo/zakira-shoes-Logo-2.webp);
+    }
+    100% {
+      background-image: url(../logo/zakira-shoes-Logo-2.svg);
+    }
+  }
+  @keyframes headerAnimation {
+    0% {
+      background-image: url(../logo/zakira-shoes-Logo-2.svg);
+    }
+    50% {
+      background-image: url(../logo/zakira-shoes-Logo-2.webp);
+    }
+    100% {
+      background-image: url(../logo/zakira-shoes-Logo-2.svg);
+    }
+  }
+  header {
+    height: 17rem;
+    background-size: cover;
+    -webkit-animation-name: headerAnimation;
+            animation-name: headerAnimation;
+    -webkit-animation-duration: 5.5s;
+            animation-duration: 5.5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
   }
 }/*# sourceMappingURL=main.css.map */

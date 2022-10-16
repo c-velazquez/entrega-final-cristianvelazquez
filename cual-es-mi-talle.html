@@ -14,147 +14,91 @@
     <link rel="stylesheet" href="css/animate.css">
 </head>
 <body class="bg-page">
-<div class="cuerpo-grid">
-    <!-- fila de logo + nav --> 
-    <nav class="navbar d-flex flex-row justify-content-evenly" id="botonera1">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="logo/ZAKIRA-2.png" alt="logo de zakira">
-            </a>
-            <div class="d-inline-flex">
-                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <img src="logo/usuario.svg" alt="icono de usuario">
-                </button>       
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header">
-                        <h5 id="offcanvasRightLabel">Bienvenido, por favor ingrese su cuenta</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="cuerpo-grid">
+        <!-- fila de logo + nav --> 
+        <nav class="navbar d-flex flex-row justify-content-evenly" id="botonera1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo/ZAKIRA-2.png" alt="logo de zakira">
+                </a>
+                <div class="d-inline-flex">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <img src="logo/usuario.svg" alt="icono de usuario">
+                    </button>       
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Bienvenido, por favor ingrese su cuenta</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="d-flex justify-content-around">
+                                <li class="aumento">
+                                    <a href="#">Registrarse</a>
+                                </li>
+                                <li class="aumento">
+                                    <a href="#">Login</a>
+                                </li>
+                                <li class="aumento">
+                                    <a href="#">Carrito</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="d-flex justify-content-around">
-                            <li class="aumento">
-                                <a href="#">Registrarse</a>
-                            </li>
-                            <li class="aumento">
-                                <a href="#">Login</a>
-                            </li>
-                            <li class="aumento">
-                                <a href="#">Carrito</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <form class="d-inline-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscador</button>
+                    </form>
                 </div>
-                <form class="d-inline-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscador</button>
-                </form>
             </div>
-        </div>
-    </nav>
-    <header id="header">
-        
-    </header>
-    <nav class="navbar  navbar-expand-md navbar-dark sticky-top " id="botonera2">
-        <div class="container-fluid bg-imagen">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto">
-                <li class="aumento">
-                  <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li class="aumento">
-                  <a href="productos.html">Productos</a>
-                </li>
-                <li class="aumento">
-                    <a href="cual-es-mi-talle.html">¿Cual es mi talle?</a>
-                </li>
-                <li class="aumento">
-                  <a href="politica-de-cambios.html">Politica de cambios</a>
-                </li>
-                <li class="aumento">
-                  <a href="dejanos-tu-consulta.html">Dejanos tu consulta</a>
-                </li>
-              </ul>
+        </nav>
+        <header id="header">
+            
+        </header>
+        <nav class="navbar  navbar-expand-md navbar-dark sticky-top " id="botonera2">
+            <div class="container-fluid bg-imagen">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="aumento">
+                    <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="aumento">
+                    <a href="productos.html">Productos</a>
+                    </li>
+                    <li class="aumento">
+                        <a href="cual-es-mi-talle.html">¿Cual es mi talle?</a>
+                    </li>
+                    <li class="aumento">
+                    <a href="politica-de-cambios.html">Politica de cambios</a>
+                    </li>
+                    <li class="aumento">
+                    <a href="dejanos-tu-consulta.html">Dejanos tu consulta</a>
+                    </li>
+                </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- cierre de fila logo + nav -->
-    <!-- fila de información de mi sitio -->
-    <main id="principal"> 
-        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-            <ol class="breadcrumb m-3">
-              <li class="breadcrumb-item"><a href="nosotros.html">Nosotros</a></li>
-              <li class="breadcrumb-item active" aria-current="page">¿Cual es mi talle?</li>
-            </ol>
-          </nav>    
-        
-        <h1 class="text-center titulo">¿Cuál es mi talle?</h1>
-        <section class="text-center">
-            <article class="sec">En esta sección mostraremos cuales son las tablas de medidas según el tipo de calzado elegido, también te recomendaremos como realizar la medición para que evites tener inconvenientes.
-                Rescorda que estas son solo recomendaciones, en caso que tengas algún inconveniente te podras contactar con nosotros para resolverlo.
-            </article>
-        </section>
-        <div class="tablas-flex" >
-            <div>
-                <h2 class="text-center">Zapatos y Sandalias</h2>
-                <section class="text-center">
-                    <table border="5px" cellpadding="7px" cellspacing="5px">
-                        <tr>
-                            <th>Talle</th>
-                            <th>Largo</th>
-                            <th>Ancho dedos</th>
-                            <th>Ancho empeine</th>
-                        <tr>
-                        </tr>
-                            <td>35</td>
-                            <td>20,5cm</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                        <tr>
-                            <td>36</td>
-                            <td>21,5</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                        <tr>
-                            <td>37</td>
-                            <td>22,5cm</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                        <tr>
-                            <td>38</td>
-                            <td>23,5cm</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                        <tr>
-                            <td>39</td>
-                            <td>24,5cm</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                        <tr>
-                            <td>40</td>
-                            <td>25,5cm</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                        <tr>
-                            <td>41</td>
-                            <td>26,5cm</td>
-                            <td>9,25cm</td>
-                            <td>12,25cm</td>
-                        </tr>
-                    </table>
-                </section>    
-            </div>
-            <div>
+        </nav>
+        <!-- cierre de fila logo + nav -->
+        <!-- fila de información de mi sitio -->
+        <main id="principal"> 
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb m-3">
+                <li class="breadcrumb-item"><a href="nosotros.html">Nosotros</a></li>
+                <li class="breadcrumb-item active" aria-current="page">¿Cual es mi talle?</li>
+                </ol>
+            </nav>    
+            
+            <h1 class="text-center titulo">¿Cuál es mi talle?</h1>
+            <section class="text-center">
+                <article class="sec">En esta sección mostraremos cuales son las tablas de medidas según el tipo de calzado elegido, también te recomendaremos como realizar la medición para que evites tener inconvenientes.
+                    Rescorda que estas son solo recomendaciones, en caso que tengas algún inconveniente te podras contactar con nosotros para resolverlo.
+                </article>
+            </section>
+            <div class="tablas-flex" >
                 <div>
-                    <h2 class="text-center">Borcegos, Zapatillas y Pantuflas</h2>
+                    <h2 class="text-center">Zapatos y Sandalias</h2>
                     <section class="text-center">
                         <table border="5px" cellpadding="7px" cellspacing="5px">
                             <tr>
@@ -165,158 +109,214 @@
                             <tr>
                             </tr>
                                 <td>35</td>
-                                <td>21cm</td>
-                                <td>10cm</td>
+                                <td>20,5cm</td>
+                                <td>9,25cm</td>
                                 <td>12,25cm</td>
                             </tr>
                             <tr>
                                 <td>36</td>
-                                <td>22cm</td>
-                                <td>10cm</td>
+                                <td>21,5</td>
+                                <td>9,25cm</td>
                                 <td>12,25cm</td>
                             </tr>
                             <tr>
                                 <td>37</td>
-                                <td>23</td>
-                                <td>10,25cm</td>
-                                <td>12,5cm</td>
+                                <td>22,5cm</td>
+                                <td>9,25cm</td>
+                                <td>12,25cm</td>
                             </tr>
                             <tr>
                                 <td>38</td>
-                                <td>24cm</td>
-                                <td>10,25cm</td>
-                                <td>12,5cm</td>
+                                <td>23,5cm</td>
+                                <td>9,25cm</td>
+                                <td>12,25cm</td>
                             </tr>
                             <tr>
                                 <td>39</td>
-                                <td>25cm</td>
-                                <td>10,25cm</td>
-                                <td>12,75cm</td>
+                                <td>24,5cm</td>
+                                <td>9,25cm</td>
+                                <td>12,25cm</td>
                             </tr>
                             <tr>
                                 <td>40</td>
-                                <td>26cm</td>
-                                <td>10,5cm</td>
-                                <td>12,75cm</td>
+                                <td>25,5cm</td>
+                                <td>9,25cm</td>
+                                <td>12,25cm</td>
                             </tr>
                             <tr>
                                 <td>41</td>
-                                <td>27cm</td>
-                                <td>10,5cm</td>
-                                <td>12,75cm</td>
+                                <td>26,5cm</td>
+                                <td>9,25cm</td>
+                                <td>12,25cm</td>
                             </tr>
                         </table>
-                    </section>
+                    </section>    
                 </div>
-            </div>
-        </div>
-    </main>
-    <aside class="text-center" id="ofertas">
-        <div class="card w-75 bg-page mt-4 mx-auto">
-            <div class="card-body text-center">
-              <h2 class="card-title titulo">¿Cómo medir tu pie?</h2>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    <strong>INDICACIONES</strong>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
-                    Para tomar la medida se debe poner de pie y descalzo sobre una hoja de papel. En esta hoja trazaremos con un lápiz dos referencias. Una será la línea en mitad de la parte de atrás del talón y la otra donde termina la punta del dedo gordo del pie (o del dedo mas largo). Teniendo esas dos referencias trazaremos la diagonal que se forma entre esos puntos.Lo que nos dé esa línea en centímetros será la medida correcta.
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>RECOMENDACIONES</strong>
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                      <div class="accordion-body">
-                        Tambien es importante tener en cuenta que para que el calzado luzca bien es recomendable que sobre tanto de adelante como de atras.
-                        En calzados de invierno debe sobrar 1/2 cm en cada extremo.
-                        En calzados de verano deberia sobrar 1/2 cm atras y 1 cm adelante
-                      </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <strong>INFORMACIÓN</strong>
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                      <div class="accordion-body">
-                        La medida que cargamos nosotros esta tomada como mostramos en la imagen, de la plantilla interna dejando libre en cada extremo aprox 1/2 cm.
-                        Esta medida no es el unico condicionante para que el producto te calce bien ya que, por ejemplo, si el modelo es de horma grande quizas el largo esta OK pero el calce es suelto porque el pie se va hacia adelante y en este caso vas a preferir un talle menos aunque no quede liberada la zona que mencionamos anteriormente.
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <img src="logo/medir.png" class="card-img-bottom" alt="imagen medición de pie">
-          </div>
-    </aside>
-    <div class="wow animate__fadeIn"  data-wow-duration="2.5s" id="redes">    
-        <h2 class="titulo text-center">REDES SOCIALES:</h2>
-            <div class="text-center">
-                <a href="https://www.instagram.com/zakirashoes/" target="_blank">
-                    <img src="logo/instagram.png" alt="Seguinos en Instagram" title="Seguinos en Instagram">
-                </a>
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="logo/facebook.png" alt="Seguinos en facebook" title="Seguinos en Facebook">
-                </a>
-            </div>
-        </div>
-      <!-- cierre de información de mi sitio -->
-      <!-- inicio de footer -->
-      <footer class="d-flex col justify-content-around"id="pie">
-        <div>
-            <h4 class="text-center">CONTACTANOS:</h4>
                 <div>
-                    <p>Email: zakira@gmail.com</p>
-                    <p>Whatsapp:</p>
-                    <a href="https://api.whatsapp.com/send?phone=5491138212870" target="_blank">
-                        <img src="logo/whatsapp.png" alt="numero de whatsapp" class="icon" title="Envianos tu Whatsapp">
+                    <div>
+                        <h2 class="text-center">Borcegos, Zapatillas y Pantuflas</h2>
+                        <section class="text-center">
+                            <table border="5px" cellpadding="7px" cellspacing="5px">
+                                <tr>
+                                    <th>Talle</th>
+                                    <th>Largo</th>
+                                    <th>Ancho dedos</th>
+                                    <th>Ancho empeine</th>
+                                <tr>
+                                </tr>
+                                    <td>35</td>
+                                    <td>21cm</td>
+                                    <td>10cm</td>
+                                    <td>12,25cm</td>
+                                </tr>
+                                <tr>
+                                    <td>36</td>
+                                    <td>22cm</td>
+                                    <td>10cm</td>
+                                    <td>12,25cm</td>
+                                </tr>
+                                <tr>
+                                    <td>37</td>
+                                    <td>23</td>
+                                    <td>10,25cm</td>
+                                    <td>12,5cm</td>
+                                </tr>
+                                <tr>
+                                    <td>38</td>
+                                    <td>24cm</td>
+                                    <td>10,25cm</td>
+                                    <td>12,5cm</td>
+                                </tr>
+                                <tr>
+                                    <td>39</td>
+                                    <td>25cm</td>
+                                    <td>10,25cm</td>
+                                    <td>12,75cm</td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>26cm</td>
+                                    <td>10,5cm</td>
+                                    <td>12,75cm</td>
+                                </tr>
+                                <tr>
+                                    <td>41</td>
+                                    <td>27cm</td>
+                                    <td>10,5cm</td>
+                                    <td>12,75cm</td>
+                                </tr>
+                            </table>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="text-center" id="ofertas">
+            <div class="card w-75 bg-page mt-4 mx-auto">
+                <div class="card-body text-center">
+                <h2 class="card-title titulo">¿Cómo medir tu pie?</h2>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <strong>INDICACIONES</strong>
+                    </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        Para tomar la medida se debe poner de pie y descalzo sobre una hoja de papel. En esta hoja trazaremos con un lápiz dos referencias. Una será la línea en mitad de la parte de atrás del talón y la otra donde termina la punta del dedo gordo del pie (o del dedo mas largo). Teniendo esas dos referencias trazaremos la diagonal que se forma entre esos puntos.Lo que nos dé esa línea en centímetros será la medida correcta.
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <strong>RECOMENDACIONES</strong>
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            Tambien es importante tener en cuenta que para que el calzado luzca bien es recomendable que sobre tanto de adelante como de atras.
+                            En calzados de invierno debe sobrar 1/2 cm en cada extremo.
+                            En calzados de verano deberia sobrar 1/2 cm atras y 1 cm adelante
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <strong>INFORMACIÓN</strong>
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            La medida que cargamos nosotros esta tomada como mostramos en la imagen, de la plantilla interna dejando libre en cada extremo aprox 1/2 cm.
+                            Esta medida no es el unico condicionante para que el producto te calce bien ya que, por ejemplo, si el modelo es de horma grande quizas el largo esta OK pero el calce es suelto porque el pie se va hacia adelante y en este caso vas a preferir un talle menos aunque no quede liberada la zona que mencionamos anteriormente.
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <img src="logo/medir.png" class="card-img-bottom" alt="imagen medición de pie">
+            </div>
+        </aside>
+        <div class="wow animate__fadeIn"  data-wow-duration="2.5s" id="redes">    
+            <h2 class="titulo text-center">REDES SOCIALES:</h2>
+                <div class="text-center">
+                    <a href="https://www.instagram.com/zakirashoes/" target="_blank">
+                        <img src="logo/instagram.png" alt="Seguinos en Instagram" title="Seguinos en Instagram">
                     </a>
-                    <p>Ubicación:</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4136.8029138698785!2d-58.42026008417183!3d-34.73784277211539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd82b1c31c0f%3A0xd40754e7bf811edb!2sAv.%20Sta.%20Fe%201640%2C%20B1828DCH%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1659813162803!5m2!1ses!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                               
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="logo/facebook.png" alt="Seguinos en facebook" title="Seguinos en Facebook">
+                    </a>
                 </div>
-        </div>    
-        <div>
-            <h4 class="text-center">MEDIOS DE PAGO:</h4>
-                <div class="text-center">
-                    <img src="logo/mercado-pago.png" alt="Mercado pago" title="Mercado Pago">
-                    <img src="logo/transferencia.png" alt="transferencia" title="Transferencia bancaria">
-                    <img src="logo/efectivo.png" alt="efectivo" title="Efectivo">
-                    <img src="logo/visa.png" alt="visa">
-                </div>
-        </div>
-        <div>
-            <h4 class="text-center">NEWSLETTER:</h4>
-                <div class="text-center">
-                    <p>Enterate de todas nuestras novedades.</p>
-                    <form class="text-center" action="">
-                        <label for="email"></label>
-                        <input type="email" id="email" class="text-center" placeholder="Ingrese su email" required >
-                    </form>
-                </div>
-        </div>    
-        <div>
-            <h4 class="text-center">ENVÍOS:</h4>
-                <div>
-                    <p>Envíos en moto (GBA - CABA)</p>
-                    <p>Corréo Argentino</p>
-                </div>
-        </div>
-    </footer>
-    <!-- cierre de footer -->
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init()
-  </script>
-  <script src="js/bootstrap.min.js"></script>
-  </div>
-  </body>
-  </html>
+            </div>
+        <!-- cierre de información de mi sitio -->
+        <!-- inicio de footer -->
+        <footer class="d-flex col justify-content-around"id="pie">
+            <div>
+                <h4 class="text-center">CONTACTANOS:</h4>
+                    <div>
+                        <p>Email: zakira@gmail.com</p>
+                        <p>Whatsapp:</p>
+                        <a href="https://api.whatsapp.com/send?phone=5491138212870" target="_blank">
+                            <img src="logo/whatsapp.png" alt="numero de whatsapp" class="icon" title="Envianos tu Whatsapp">
+                        </a>
+                        <p>Ubicación:</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4136.8029138698785!2d-58.42026008417183!3d-34.73784277211539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd82b1c31c0f%3A0xd40754e7bf811edb!2sAv.%20Sta.%20Fe%201640%2C%20B1828DCH%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1659813162803!5m2!1ses!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                               
+                    </div>
+            </div>    
+            <div>
+                <h4 class="text-center">MEDIOS DE PAGO:</h4>
+                    <div class="text-center">
+                        <img src="logo/mercado-pago.png" alt="Mercado pago" title="Mercado Pago">
+                        <img src="logo/transferencia.png" alt="transferencia" title="Transferencia bancaria">
+                        <img src="logo/efectivo.png" alt="efectivo" title="Efectivo">
+                        <img src="logo/visa.png" alt="visa">
+                    </div>
+            </div>
+            <div>
+                <h4 class="text-center">NEWSLETTER:</h4>
+                    <div class="text-center">
+                        <p>Enterate de todas nuestras novedades.</p>
+                        <form class="text-center" action="">
+                            <label for="email"></label>
+                            <input type="email" id="email" class="text-center" placeholder="Ingrese su email" required >
+                        </form>
+                    </div>
+            </div>    
+            <div>
+                <h4 class="text-center">ENVÍOS:</h4>
+                    <div>
+                        <p>Envíos en moto (GBA - CABA)</p>
+                        <p>Corréo Argentino</p>
+                    </div>
+            </div>
+        </footer>
+        <!-- cierre de footer -->
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init()
+        </script>
+        <script src="js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>
