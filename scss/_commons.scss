@@ -23,10 +23,11 @@ $colores:(
 
 html{
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
-body{
-    width: 90vw;
+.contenedor{
+    width: 100vw;
     overflow-x: hidden;
 }
 
